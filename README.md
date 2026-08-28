@@ -36,8 +36,8 @@ The lab was built using **VMware** with a 3-machine virtual environment:
 4. Configured `ossec.conf` for custom log collection and FIM scope
 5. Enabled File Integrity Monitoring on critical Windows directories
 6. Generated controlled security events (account creation, login attempts, failed logins) to validate detection
-Tested File Integrity Monitoring by creating/modifying/deleting files in monitored directories
-Separately, ran a basic Nmap scan from the Kali Linux machine against the Windows endpoint to check for open ports
+7. Tested File Integrity Monitoring by creating/modifying/deleting files in monitored directories
+8. Separately, ran a basic Nmap scan from the Kali Linux machine against the Windows endpoint to check for open ports
 
 ## Tests Performed & Windows Event IDs Monitored
 | Event ID | Description |
@@ -48,40 +48,39 @@ Separately, ran a basic Nmap scan from the Kali Linux machine against the Window
 | 4625 | Failed logon attempt |
 
 Additional testing included:
-file creation/modification/deletion on monitored directories to validate FIM alerting.
-A basic Nmap scan (from Kali Linux) against the Windows endpoint to check for open ports
-Disabled and re-enabled the Windows Firewall on the endpoint to test detection coverage
+1. File creation/modification/deletion on monitored directories to validate FIM alerting.
+2. A basic Nmap scan (from Kali Linux) against the Windows endpoint to check for open ports
+3. Disabled and re-enabled the Windows Firewall on the endpoint to test detection coverage
 
 ## Findings & Results
 - Successfully detected and alerted on all simulated account management events in real time via the Wazuh dashboard
 - FIM correctly flagged unauthorized file changes within monitored directories
 - Identified and documented a limitation: certain firewall-related events required additional local policy configuration to be captured — noted as a lesson learned for future SOC deployments
 
-*(Add dashboard/alert screenshots here — see Screenshots section)*
+*(see Screenshots section)*
 
 ## Screenshots
 
 ### Windows Security Assessment
 
-<img src="ScreenShots/Windows-update-status.png" width="600"><br>
-<img src="ScreenShots/Windows-Firewall%20status.png" width="600"><br>
-<img src="ScreenShots/Figure5.3-Windows-Defender%20status.png" width="600"><br>
-<img src="ScreenShots/After%20Assessment%28defender%29.png" width="600"><br>
-<img src="ScreenShots/password-policy.png" width="600"><br>
-<img src="ScreenShots/After%20Assessment%28password%29.png" width="600"><br>
-<img src="ScreenShots/After%20Assessment.png" width="600"><br>
-<img src="ScreenShots/Guest%20Account%20disabled.png" width="600"><br>
-<img src="ScreenShots/8-1%20Nmap%20scan.png" width="600"><br>
-<img src="ScreenShots/10-security%20logs.png" width="600"><br>
+<img src="ScreenShots/Windows-update-status.png" width="400"><br>
+<img src="ScreenShots/Windows-Firewall%20status.png" width="400"><br>
+<img src="ScreenShots/Figure5.3-Windows-Defender%20status.png" width="400"><br>
+<img src="ScreenShots/After%20Assessment%28defender%29.png" width="400"><br>
+<img src="ScreenShots/password-policy.png" width="400"><br>
+<img src="ScreenShots/After%20Assessment%28password%29.png" width="400"><br>
+<img src="ScreenShots/After%20Assessment.png" width="400"><br>
+<img src="ScreenShots/Guest%20Account%20disabled.png" width="400"><br>
+<img src="ScreenShots/8-1%20Nmap%20scan.png" width="400"><br>
+<img src="ScreenShots/10-security%20logs.png" width="400"><br>
 
 ### Wazuh Monitoring & Alerts
 
-<img src="ScreenShots/Dashboard%20Overview.png" width="600"><br>
-<img src="ScreenShots/Agents%20summary.png" width="600"><br>
-<img src="ScreenShots/FIM%20dashboard.png" width="600"><br>
-<img src="ScreenShots/8-wazuh%20alert%20%28FIM%20test%29.png" width="600"><br>
-<img src="ScreenShots/Wazuh%20alert%20%28failed%20login%29.png" width="600"><br>
-<img src="ScreenShots/alert%20details.png" width="600"><br>
+<img src="ScreenShots/Agents%20summary.png" width="400"><br>
+<img src="ScreenShots/FIM%20dashboard.png" width="400"><br>
+<img src="ScreenShots/8-wazuh%20alert%20%28FIM%20test%29.png" width="400"><br>
+<img src="ScreenShots/Wazuh%20alert%20%28failed%20login%29.png" width="400"><br>
+<img src="ScreenShots/alert%20details.png" width="400"><br>
 
 
 ## Skills Demonstrated
@@ -98,4 +97,5 @@ Disabled and re-enabled the Windows Firewall on the endpoint to test detection c
 
 ## Author
 **Momena Noor** — BS Information Technology | Aspiring SOC Analyst
+
 https://www.linkedin.com/in/momena-noor-454767367
