@@ -95,6 +95,9 @@ Additional testing included:
 - Learned to troubleshoot agent-manager connectivity issues
 - Gained practical experience translating Windows Event IDs into actionable security alerts
 
+  ## Full Project Report
+📄 [View the complete project report (PDF)](Final-Report.pdf)
+
 ## Author
 **Momena Noor** — BS Information Technology | Aspiring SOC Analyst
 
