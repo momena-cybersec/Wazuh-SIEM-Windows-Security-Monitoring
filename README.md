@@ -60,11 +60,20 @@ Disabled and re-enabled the Windows Firewall on the endpoint to test detection c
 *(Add dashboard/alert screenshots here — see Screenshots section)*
 
 ## Screenshots
-> Add screenshots in a `/screenshots` folder and reference them below:
-- Wazuh Dashboard Overview
-- Agent Connection Status
-- Security Alerts (Event ID 4625 example)
-- File Integrity Monitoring Alert
+
+**Windows Security Assessment**
+
+![Windows Update Status](ScreenShots/Windows-update-status.png)
+
+![Windows Firewall Status](ScreenShots/Windows-Firewall%20status.png)
+
+![Password Policy](ScreenShots/password-policy.png)
+
+![Guest Account Disabled](ScreenShots/Guest%20Account%20disabled.png)
+
+**Wazuh Monitoring & Alerts**
+
+![Wazuh Alert - Failed Login](ScreenShots/Wazuh%20alert%20(failed%20login).png)
 
 ## Skills Demonstrated
 - SIEM deployment and configuration (Wazuh)
