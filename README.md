@@ -61,19 +61,28 @@ Disabled and re-enabled the Windows Firewall on the endpoint to test detection c
 
 ## Screenshots
 
-**Windows Security Assessment**
+### Windows Security Assessment
 
-![Windows Update Status](ScreenShots/Windows-update-status.png)
+<img src="ScreenShots/Windows-update-status.png" width="600"><br>
+<img src="ScreenShots/Windows-Firewall%20status.png" width="600"><br>
+<img src="ScreenShots/Figure5.3-Windows-Defender%20status.png" width="600"><br>
+<img src="ScreenShots/After%20Assessment%28defender%29.png" width="600"><br>
+<img src="ScreenShots/password-policy.png" width="600"><br>
+<img src="ScreenShots/After%20Assessment%28password%29.png" width="600"><br>
+<img src="ScreenShots/After%20Assessment.png" width="600"><br>
+<img src="ScreenShots/Guest%20Account%20disabled.png" width="600"><br>
+<img src="ScreenShots/8-1%20Nmap%20scan.png" width="600"><br>
+<img src="ScreenShots/10-security%20logs.png" width="600"><br>
 
-![Windows Firewall Status](ScreenShots/Windows-Firewall%20status.png)
+### Wazuh Monitoring & Alerts
 
-![Password Policy](ScreenShots/password-policy.png)
+<img src="ScreenShots/Dashboard%20Overview.png" width="600"><br>
+<img src="ScreenShots/Agents%20summary.png" width="600"><br>
+<img src="ScreenShots/FIM%20dashboard.png" width="600"><br>
+<img src="ScreenShots/8-wazuh%20alert%20%28FIM%20test%29.png" width="600"><br>
+<img src="ScreenShots/Wazuh%20alert%20%28failed%20login%29.png" width="600"><br>
+<img src="ScreenShots/alert%20details.png" width="600"><br>
 
-![Guest Account Disabled](ScreenShots/Guest%20Account%20disabled.png)
-
-**Wazuh Monitoring & Alerts**
-
-![Wazuh Alert - Failed Login](ScreenShots/Wazuh%20alert%20(failed%20login).png)
 
 ## Skills Demonstrated
 - SIEM deployment and configuration (Wazuh)
