@@ -71,7 +71,6 @@ Additional testing included:
 <img src="ScreenShots/After%20Assessment%28password%29.png" width="400"><br>
 <img src="ScreenShots/After%20Assessment.png" width="400"><br>
 <img src="ScreenShots/Guest%20Account%20disabled.png" width="400"><br>
-<img src="ScreenShots/Guest%20Nmap%20scan.png" width="400"><br>
 <img src="ScreenShots/10-security%20logs.png" width="400"><br>
 
 ### Wazuh Monitoring & Alerts
