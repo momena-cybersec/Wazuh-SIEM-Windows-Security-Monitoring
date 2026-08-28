@@ -75,7 +75,7 @@ Additional testing included:
 <img src="ScreenShots/10-security%20logs.png" width="400"><br>
 
 ### Wazuh Monitoring & Alerts
-
+<img src="ScreenShots/Dashboard%20Overview.png" width="400"><br>
 <img src="ScreenShots/Agents%20summary.png" width="400"><br>
 <img src="ScreenShots/FIM%20dashboard.png" width="400"><br>
 <img src="ScreenShots/8-wazuh%20alert%20%28FIM%20test%29.png" width="400"><br>
