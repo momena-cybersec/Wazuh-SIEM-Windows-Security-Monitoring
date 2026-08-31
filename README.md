@@ -88,7 +88,7 @@ Additional testing included:
 - Windows event log analysis
 - File Integrity Monitoring
 - Security lab design using virtualization (VMware)
-- Incident detection and log correlation
+- Security Event Detection and Basic Log Correlation
 
 ## Lessons Learned
 - Understood how log source configuration directly affects detection coverage
